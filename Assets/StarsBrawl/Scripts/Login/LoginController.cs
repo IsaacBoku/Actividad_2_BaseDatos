@@ -24,7 +24,7 @@ public class LoginController : MonoBehaviour
         {
             // Si existe, guardamos el ID y cargamos MainMenu
             UserSession.LoggedUserId = inputId;
-            SceneManager.LoadScene("MainMenu");
+            await SceneManager.LoadSceneAsync("MainMenu");
         }
         else
         {
