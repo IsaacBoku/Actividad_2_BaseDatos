@@ -684,6 +684,7 @@ GameObject:
   - component: {fileID: 2713209506916828571}
   - component: {fileID: 665128479347749446}
   - component: {fileID: 7651931622468521668}
+  - component: {fileID: 711377041139562075}
   m_Layer: 5
   m_Name: User Brawler Portrait Data
   m_TagString: Untagged
@@ -777,6 +778,22 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &711377041139562075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4318336147892069072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32d0395d5f51cb84fbc0c6e17567828e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nicknameText: {fileID: 2312426996999173501}
+  trophiesText: {fileID: 5614696266046859881}
+  levelText: {fileID: 1012332812741808357}
+  portraitImage: {fileID: 3447209698485917856}
 --- !u!1 &4391423834485875701
 GameObject:
   m_ObjectHideFlags: 0

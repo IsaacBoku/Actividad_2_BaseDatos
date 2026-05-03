@@ -4,4 +4,5 @@ public static class UserSession
 {
     public static string LoggedUserId;
     public static int SelectedBrawlerId;
+    public static int SelectedMatchId;
 }
