@@ -77,7 +77,7 @@ public class UserDetailsController : MonoBehaviour
         {
             DataRow r = dt.Rows[0];
 
-            userIdText.text = "ID: " + r["user_id"].ToString();
+            userIdText.text = r["user_id"].ToString();
             nicknameText.text = r["nickname"].ToString();
             totalTrophiesText.text = totalTrophies.ToString();
 

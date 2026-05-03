@@ -1586,7 +1586,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 843856824}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1668334504}
+        m_TargetAssemblyTypeName: BrawlerDetailsController, Assembly-CSharp
+        m_MethodName: GoBackToBrawlers
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &843856824
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1659,8 +1671,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 18.147285, y: -6.5181}
-  m_SizeDelta: {x: 105.8117, y: 31.718}
+  m_AnchoredPosition: {x: 89.431, y: -6.5181}
+  m_SizeDelta: {x: 248.38, y: 31.718}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &847251417
 MonoBehaviour:
@@ -1797,7 +1809,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 117.5, y: -35}
+  m_AnchoredPosition: {x: 120, y: -35}
   m_SizeDelta: {x: 14.4, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &895039263
@@ -1948,8 +1960,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 103.90162, y: -6.5181}
-  m_SizeDelta: {x: 277.3205, y: 31.718}
+  m_AnchoredPosition: {x: 104.954, y: -6.5181}
+  m_SizeDelta: {x: 279.425, y: 31.718}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &988844720
 MonoBehaviour:
@@ -1998,8 +2010,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 32
-  m_fontSizeBase: 32
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2291,6 +2303,74 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1001 &1159828219
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3046788176045053855, guid: 4370ab9257b27ed46abcae3b8771cba0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3046788176045053855, guid: 4370ab9257b27ed46abcae3b8771cba0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3046788176045053855, guid: 4370ab9257b27ed46abcae3b8771cba0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3046788176045053855, guid: 4370ab9257b27ed46abcae3b8771cba0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3046788176045053855, guid: 4370ab9257b27ed46abcae3b8771cba0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3046788176045053855, guid: 4370ab9257b27ed46abcae3b8771cba0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3046788176045053855, guid: 4370ab9257b27ed46abcae3b8771cba0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3046788176045053855, guid: 4370ab9257b27ed46abcae3b8771cba0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3046788176045053855, guid: 4370ab9257b27ed46abcae3b8771cba0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3046788176045053855, guid: 4370ab9257b27ed46abcae3b8771cba0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8184863240157167037, guid: 4370ab9257b27ed46abcae3b8771cba0, type: 3}
+      propertyPath: m_Name
+      value: Portrait Provider
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4370ab9257b27ed46abcae3b8771cba0, type: 3}
+--- !u!114 &1159828220 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6421206485118123597, guid: 4370ab9257b27ed46abcae3b8771cba0, type: 3}
+  m_PrefabInstance: {fileID: 1159828219}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 671026d924ed9894088737fda3f496bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1174622453
 GameObject:
   m_ObjectHideFlags: 0
@@ -2979,6 +3059,63 @@ RectTransform:
   m_AnchoredPosition: {x: -55.7473, y: -69.3}
   m_SizeDelta: {x: 191.4597, y: 58.1665}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1668334503
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1668334505}
+  - component: {fileID: 1668334504}
+  m_Layer: 0
+  m_Name: BrawlerDetailsController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1668334504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1668334503}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7875830bb4bd76640a1d6de16a877b5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: {fileID: 99803153}
+  classText: {fileID: 1004787476}
+  rarityText: {fileID: 1652121595}
+  brawlerPortraitImage: {fileID: 1745408445}
+  trophiesText: {fileID: 895039264}
+  brawlerDescriptionText: {fileID: 808505010}
+  attributePanel: {fileID: 393808969}
+  attributeDescriptionText: {fileID: 393808971}
+  levelText: {fileID: 1323063099}
+  healthText: {fileID: 204168327}
+  damageText: {fileID: 847251417}
+  superNameText: {fileID: 988844720}
+  portraitProvider: {fileID: 1159828220}
+--- !u!4 &1668334505
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1668334503}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 147.19307, y: 110.93209, z: 0.3303459}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1722105765
 GameObject:
   m_ObjectHideFlags: 0
@@ -3110,7 +3247,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -3119,7 +3256,7 @@ MonoBehaviour:
       m_Calls: []
   m_Sprite: {fileID: 8421004120017684899, guid: b1edd8b2fcaa6174b8fe4fd11178b9b4, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -3318,7 +3455,7 @@ MonoBehaviour:
     m_Top: 0
     m_Bottom: 0
   m_ChildAlignment: 4
-  m_Spacing: 5
+  m_Spacing: 10
   m_ChildForceExpandWidth: 0
   m_ChildForceExpandHeight: 1
   m_ChildControlWidth: 0
@@ -3470,7 +3607,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2097047474
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3636,3 +3773,5 @@ SceneRoots:
   - {fileID: 1832079977}
   - {fileID: 1127399730}
   - {fileID: 1722105768}
+  - {fileID: 1668334505}
+  - {fileID: 1159828219}
