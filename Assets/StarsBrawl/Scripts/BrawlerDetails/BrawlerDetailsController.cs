@@ -7,23 +7,23 @@ using UnityEngine.UI;
 
 public class BrawlerDetailsController : MonoBehaviour
 {
-    [Header("i. Identificación y Clasificación")]
+    [Header("Identificación y Clasificación")]
     [SerializeField] private TMP_Text nameText;
     [SerializeField] private TMP_Text classText;
     [SerializeField] private TMP_Text rarityText;
     [SerializeField] private Image brawlerPortraitImage;
 
-    [Header("ii. Trofeos")]
+    [Header("Trofeos")]
     [SerializeField] private TMP_Text trophiesText;
 
-    [Header("iii. Descripción")]
+    [Header("Descripción")]
     [SerializeField] private TMP_Text brawlerDescriptionText;
 
-    [Header("iv. Atributo Especial")]
+    [Header("Atributo Especial")]
     [SerializeField] private GameObject attributePanel;
     [SerializeField] private TMP_Text attributeDescriptionText;
 
-    [Header("v. Estadísticas de Combate")]
+    [Header("Estadísticas de Combate")]
     [SerializeField] private TMP_Text levelText;
     [SerializeField] private TMP_Text healthText;
     [SerializeField] private TMP_Text damageText;
@@ -96,7 +96,6 @@ public class BrawlerDetailsController : MonoBehaviour
             trophiesText.text = row["trophies"].ToString();
             brawlerDescriptionText.text = row["brawler_desc"].ToString();
 
-            // Lógica de Trait
             if (row["attribute_desc"] != System.DBNull.Value && !string.IsNullOrEmpty(row["attribute_desc"].ToString()))
             {
                 attributePanel.SetActive(true);
@@ -107,7 +106,6 @@ public class BrawlerDetailsController : MonoBehaviour
                 attributePanel.SetActive(false);
             }
 
-            // Estadísticas escaladas
             int level = System.Convert.ToInt32(row["level"]);
             int baseHealth = System.Convert.ToInt32(row["base_health"]);
             int baseDamage = System.Convert.ToInt32(row["base_damage"]);

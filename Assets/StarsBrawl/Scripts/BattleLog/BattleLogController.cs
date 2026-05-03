@@ -8,7 +8,7 @@ using UnityEngine.SceneManagement;
 public class BattleLogController : MonoBehaviour
 {
     [Header("UI - Contenedor")]
-    [SerializeField] private Transform logContainer; // El 'Content' del ScrollView
+    [SerializeField] private Transform logContainer;
     [SerializeField] private BattleLogUIItem logPrefab;
 
     private async void Start()

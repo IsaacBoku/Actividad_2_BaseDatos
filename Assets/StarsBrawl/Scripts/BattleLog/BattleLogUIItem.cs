@@ -19,7 +19,6 @@ public class BattleLogUIItem : MonoBehaviour
         modalityText.text = modality;
         resultText.text = result;
 
-        // Formatear la fecha
         if (daysAgo == 0) dateText.text = "Hoy";
         else if (daysAgo == 1) dateText.text = "Ayer";
         else dateText.text = $"Hace {daysAgo} días";

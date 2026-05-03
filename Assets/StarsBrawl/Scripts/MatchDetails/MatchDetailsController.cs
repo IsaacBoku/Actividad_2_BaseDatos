@@ -26,7 +26,6 @@ public class MatchDetailsController : MonoBehaviour
 
     private async Task LoadMatchDetails(int matchId)
     {
-        // Limpiar contenedores
         foreach (Transform t in winnersContainer) Destroy(t.gameObject);
         foreach (Transform t in losersContainer) Destroy(t.gameObject);
 
@@ -53,7 +52,6 @@ public class MatchDetailsController : MonoBehaviour
             return;
         }
 
-        // ii & iii. Ganadores / Perdedores
         foreach (DataRow row in dt.Rows)
         {
             string result = row["result"].ToString();
@@ -62,7 +60,6 @@ public class MatchDetailsController : MonoBehaviour
             int level = System.Convert.ToInt32(row["level"]);
             int brawlerId = System.Convert.ToInt32(row["brawler_id"]);
 
-            // Obtener portrait
             Sprite portrait = null;
             if (portraitProvider != null)
                 portraitProvider.TryGetPortraitByID(brawlerId, out portrait);

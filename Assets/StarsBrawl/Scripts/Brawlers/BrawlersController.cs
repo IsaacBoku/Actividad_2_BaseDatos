@@ -6,10 +6,8 @@ using UnityEngine.SceneManagement;
 
 public class BrawlersController : MonoBehaviour
 {
-    [Header("UI - Cabecera (i)")]
+    [Header("UI")]
     [SerializeField] private TMP_Text brawlersCountText;
-
-    [Header("UI - Lista (ii)")]
     [SerializeField] private Transform brawlersContainer;
     [SerializeField] private BrawlerUIItem brawlerPrefab; 
 
